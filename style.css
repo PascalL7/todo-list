@@ -1,0 +1,50 @@
+body {
+    background-color: bisque;
+}
+
+hr {
+    color: goldenrod;
+    margin: 10px 0 10px 0;
+}
+
+h1, h2 {
+    color: rgb(133, 114, 114);
+}
+
+label {
+    margin-top: 20px;
+}
+
+input {
+    background-color: rgb(213, 217, 225);
+    color: rgb(133, 114, 114);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 20px 0 7px 0;
+}
+
+button {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    background: rgb(249, 171, 115);
+    box-shadow: none;
+    border-radius: 0px;
+    margin: 8px 0 8px 8px;
+}
+
+p, span {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    margin: 8px 3px 8px 8px;
+}
+
+[type="checkbox"]:not(:checked), 
+[type="checkbox"]:checked {
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
